@@ -1,14 +1,14 @@
-# vanilla-template
-Template for vanilla(no framework) frontend projects
+# Upqode
+layout landing page
 
 # Description
 - landing page includes ...
 - This page is adaptive to next devices: Notebook (> 1280px), Tablet (> 768px), Mobile (> 320px) ...
 
 # Links
-- [DEMO LINK]( ... )
-- [Code]( ... )
-- [The landing page]( ... )
+- [DEMO LINK](https://yurasokal.github.io/upqode/)
+- [Code](https://github.com/yurasokal/upqode)
+- [The landing page](https://www.figma.com/file/DlN7hUtYx9euM6ISx0ODDT/Test-Task?node-id=0%3A2)
 
 # Technologies
 - JavaScript
