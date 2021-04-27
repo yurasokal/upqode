@@ -1,12 +1,13 @@
 .first {
   // background-color: pink;
-  background: url("../images/main/background1.png");
+  background-image: url("../images/main/background1.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
   color: $white-color;
 
   &__wrapper {
+    // background: linear-gradient(180deg, #050d1d 11.29%, rgba(5, 13, 29, 0) 90.3%);
     display: flex;
     padding-top: 25vh;
     flex-direction: column;
