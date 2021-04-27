@@ -1,0 +1,41 @@
+.footer {
+  height: 344px;
+  color: $white-color;
+  background-color: $footer-background;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__logo {
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0;
+    display: flex;
+    gap: 13px;
+    margin-top: 88px;
+  }
+
+  &__logo-img {
+    height: 44px;
+    width: 44px;
+  }
+
+  &__navigation {
+    margin-top: 54px;
+  }
+
+  &__copyright {
+    margin-top: 54px;
+  }
+}
+
+@media screen and (max-width: $analog-screen-breakpoint) {
+  .footer {
+    // display: none;
+  }
+}

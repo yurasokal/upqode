@@ -41,5 +41,13 @@
   "mateAcademy": {
     "projectType": "layout"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yurasokal/upqode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yurasokal/upqode/issues"
+  },
+  "homepage": "https://github.com/yurasokal/upqode#readme"
 }

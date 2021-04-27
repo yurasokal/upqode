@@ -1,0 +1,43 @@
+.first {
+  // background-color: pink;
+  background: url("../images/main/background1.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: $white-color;
+
+  &__wrapper {
+    display: flex;
+    padding-top: 25vh;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  &__heading {
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: 0;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+  }
+
+  &__button {
+    font-size: 18px;
+    padding: 16px 23px;
+    background-color: $main-color;
+    border-radius: 27px;
+    color: $button-text;
+    transition: background-color 0.3s;
+    &:hover {
+      color: $main-color;
+      background-color: $white-color;
+    }
+  }
+}

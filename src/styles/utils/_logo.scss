@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+  gap: 13px;
+
+  &__text {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+}
