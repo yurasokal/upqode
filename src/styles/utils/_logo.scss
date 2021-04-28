@@ -7,8 +7,16 @@
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
-    line-height: 32px;
+    line-height: 50px;
     letter-spacing: 0;
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    &__text {
+      line-height: 70px;
+    }
   }
 }

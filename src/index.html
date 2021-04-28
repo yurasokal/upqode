@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+      integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
+      crossorigin="anonymous"
+    >
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
 
   </head>
   <body>
 
-    <header class="header">
+    <header class="header" id="myHeader">
       <div class="header__wrapper">
 
         <div class="logo">
@@ -24,11 +31,13 @@
         </div>
 
         <nav class="nav header__nav">
+          <div class="nav__open-menu"><div class="fa fa-bars"></div></div>
           <ul class="nav__list">
             <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
             <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
             <li class="nav__item"><a href="#" class="nav__link">Team</a></li>
             <li class="nav__item"><a href="#" class="nav__link">Contact&nbsp;Us</a></li>
+            <div class="nav__close-menu"><div class="fa fa-times"></div></div>
           </ul>
         </nav>
       </div>
@@ -91,6 +100,6 @@
       </div>
     </footer>
 
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>

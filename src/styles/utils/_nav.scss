@@ -34,6 +34,58 @@
 
   &__item {
     // display: inline-block;
+  }
 
+  &__open-menu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+  }
+
+  &__close-menu {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    &__list {
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 10;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #000;
+      transition: top 1s ease;
+      display: none;
+    }
+
+    &__close-menu {
+      display: block;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    &__open-menu {
+      display: block;
+    }
+
+    &__link {
+      color: $white-color;
+      font-size: 1.6rem;
+    }
+
+    &__fa {
+      display: inline-block;
+      padding: 12px;
+    }
   }
 }
